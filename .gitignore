@@ -1,0 +1,3 @@
+# Ignore private files/folder
+private_folder/
+*.exe
