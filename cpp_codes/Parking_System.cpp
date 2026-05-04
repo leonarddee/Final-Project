@@ -375,7 +375,7 @@ public:
         }
 
         // --- Regular Queue (RECURSIVE display) ---
-        cout << "\n  >> REGULAR QUEUE (FIFO - Recursive Display):\n";
+        cout << "\n  >> REGULAR QUEUE:\n";
         if (regularQueue.empty()) {
             cout << "     (empty)\n";
         } else {
@@ -481,9 +481,9 @@ int main() {
         cout << "  =====================================================\n";
         cout << "   [1] Park Vehicle\n";
         cout << "   [2] Remove Vehicle\n";
-        cout << "   [3] Undo Last Action          (Stack - LIFO)\n";
-        cout << "   [4] View Parked Vehicles      (Iterative)\n";
-        cout << "   [5] View Waiting List         (Recursive)\n";
+        cout << "   [3] Undo Last Action\n";
+        cout << "   [4] View Parked Vehicles\n";
+        cout << "   [5] View Waiting List\n";
         cout << "   [6] Search Vehicle\n";
         cout << "   [7] View All Slots\n";
         cout << "   [8] Exit\n";
